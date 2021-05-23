@@ -22,6 +22,8 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+        <!-- 为了引入Mockito和PowerMock包，需要在maven项目的pom.xml文件中加入以下包依赖。 -->
+        <!-- 在PowerMock包中，已经包含了对应的Mockito和JUnit包，所以无需单独引入Mockito和JUnit包。 -->
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-core</artifactId>
